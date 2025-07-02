@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EasyPDF – All Tools</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>EasyPDF</h1>
+    <div class="tools">
+      <button onclick="convert('pdf-to-word')">PDF ➡ Word</button>
+      <button onclick="convert('word-to-pdf')">Word ➡ PDF</button>
+      <button onclick="convert('merge-pdf')">Merge PDF</button>
+      <button onclick="convert('split-pdf')">Split PDF</button>
+      <button onclick="convert('compress-pdf')">Compress PDF</button>
+      <button onclick="convert('pdf-to-image')">PDF ➡ Image</button>
+      <button onclick="convert('image-to-pdf')">Image ➡ PDF</button>
+      <button onclick="convert('rotate-pdf')">Rotate PDF</button>
+      <button onclick="convert('unlock-pdf')">Unlock PDF</button>
+      <button onclick="convert('protect-pdf')">Protect PDF</button>
+    </div>
+    <input type="file" id="fileInput" />
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
