@@ -1,5 +1,5 @@
 
-const API_URL = "https://back-end-fsb2.onrender.com/";
+const API_URL = "https://back-end-fsb2.onrender.com";
 
 async function convert(tool) {
     const fileInput = document.getElementById("fileInput");
